@@ -3,15 +3,15 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #eee;
-  border: 2px solid #eee;
+  border: 1em solid #eee;
 }
 
 nav > ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-top: 2px solid #777;
-  border-bottom: 2px solid #777;
+  margin: 0.4em;
+  padding: 0.4em;
+  border-top: 0.2em solid #777;
+  border-bottom: 0.2em solid #777;
 }
 
 nav > ul > li {
@@ -21,15 +21,18 @@ nav > ul > li {
 nav > ul > li > a {
   text-decoration: none;
   color: #777;
-  padding: 10px;
+  padding: 0.4em;
 }
 
 h1 {
   font-family: "Abril Fatface";
   text-align: center;
+  font-size: 4em;
 }
 
-h2 {
+h2,
+h4,
+h5 {
   font-family: "Roboto Slab";
 }
 
@@ -39,30 +42,51 @@ h5 {
 
 p {
   color: #000;
+  font-size: 1em;
+  text-align: center;
 }
 
 .newspaper-container {
   display: inline-block;
-  width: 700px;
+  width: 70em;
   background: #fff;
-  box-shadow: 0 0 10px #ddd inset;
-  border-radius: 20px;
-  padding: 20px;
-  margin-right: 20px;
+  box-shadow: 0 0 1em #ddd inset;
+  border-radius: 2em;
+  padding: 2em;
+  margin-right: 2em;
 }
 
 .more-articles {
-  display: inline-block;
+  text-align: center;
   width: auto;
-  border-top: 2px solid #777;
-  padding: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  border-top: 0.1em solid #777;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-footer > a {
+.more-articles section {
+  display: inline-block;
+  width: 40%;
+  margin: 0 2em;
+}
+
+.bonus-articles {
+  text-align: center;
+  width: auto;
+  border-top: 0.1em solid #777;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
   display: inline-block;
   text-decoration: none;
   list-style-type: none;
-  color: #777;
+  color: #dd3232;
 }
