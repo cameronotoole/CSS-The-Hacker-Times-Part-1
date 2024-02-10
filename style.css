@@ -6,6 +6,11 @@ body {
   border: 1em solid #eee;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
 nav > ul {
   list-style-type: none;
   text-align: center;
